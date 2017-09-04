@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E2193" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="409"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_personalcenter" translatesAutoresizingMaskIntoConstraints="NO" id="Dd3-8h-GqK">
+                    <rect key="frame" x="0.0" y="0.0" width="405" height="409"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopCircle_Header" translatesAutoresizingMaskIntoConstraints="NO" id="AdV-3t-AqC">
+                    <rect key="frame" x="0.0" y="0.0" width="405" height="409"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Dd3-8h-GqK" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="5v9-4N-qN5"/>
+                <constraint firstAttribute="bottom" secondItem="Dd3-8h-GqK" secondAttribute="bottom" id="DBu-mc-S9D"/>
+                <constraint firstItem="Dd3-8h-GqK" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="NM4-94-tR5"/>
+                <constraint firstAttribute="trailing" secondItem="AdV-3t-AqC" secondAttribute="trailing" id="PhE-5M-VVp"/>
+                <constraint firstAttribute="trailing" secondItem="Dd3-8h-GqK" secondAttribute="trailing" id="VTJ-zK-j99"/>
+                <constraint firstItem="AdV-3t-AqC" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="axg-1z-naN"/>
+                <constraint firstAttribute="bottom" secondItem="AdV-3t-AqC" secondAttribute="bottom" id="ezH-qE-c7v"/>
+                <constraint firstItem="AdV-3t-AqC" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="ifH-Gw-pG8"/>
+            </constraints>
+            <point key="canvasLocation" x="-627" y="-287"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="bg_personalcenter" width="375" height="200"/>
+        <image name="shopCircle_Header" width="320" height="363"/>
+    </resources>
+</document>
