@@ -4,9 +4,13 @@
 
 ### 项目概览
 
-![http://ob2dome95.bkt.clouddn.com/shop.gif]
+[项目GIF](http://ob2dome95.bkt.clouddn.com/shop.gif)
 
-![http://ob2dome95.bkt.clouddn.com/shop.gif](http://ob2dome95.bkt.clouddn.com/shop.gif)
+![](http://ob2dome95.bkt.clouddn.com/shopmall.png)
+
+### 本人博客
+
+[博客](https://longsirhero.github.io)
 
 ### 备注
 
